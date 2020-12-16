@@ -1,8 +1,6 @@
 // ! Considering all the lower and uppercase alphabets
 // ! this array will help us get the location/ index of a particular letter
-const arrayOfLetters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split(
-  ""
-);
+const arrayOfLetters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 // ! The encrypt method will require amessage to encrypt and a key to encrypt it
 const encrypt = (message, key) => {
