@@ -1,0 +1,48 @@
+.program {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 6rem;
+  grid-gap: 3rem;
+  &__encrypt {
+    border: 4px solid rgb(29, 148, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      margin: 2rem 0;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__decrypt {
+    border: 4px solid rgb(29, 148, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      margin: 2rem 0;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__bruteforce {
+    border: 4px solid rgb(29, 148, 187);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+      margin: 2rem 0;
+    }
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
