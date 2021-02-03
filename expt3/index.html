@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>EXPERIMENT 1</title>
+  </head>
+  <body>
+    <h1 style="margin: auto; text-align: center">DENS lab experiment 1</h1>
+    <div class="program">
+      <div class="program__encrypt">
+        <div>
+          <h3>Plain text here</h3>
+          <input type="text" name="toEncrypt" id="encrypt-input" />
+          <h3>Key</h3>
+          <input type="text" id="encryptKey" />
+        </div>
+
+        <button class="encryptButton">Encrypt</button>
+        <p class="encryptedText">Encrypted message here</p>
+      </div>
+      <div class="program__decrypt">
+        <div>
+          <h3>Encrypted message here</h3>
+          <input type="text" name="toDecrypt" id="decrypt-input" />
+          <h3>key</h3>
+          <input type="text" id="decryptKey" />
+        </div>
+
+        <button class="decryptButton">Decrypt</button>
+        <p class="decryptedText">Decrypted message here</p>
+      </div>
+      
+      
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
